@@ -141,3 +141,27 @@ footer p {
 .btn{
     margin:10px;
 }
+body.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+body.dark-mode .project-card {
+    background: #1f1f1f;
+    color: white;
+}
+
+body.dark-mode p,
+body.dark-mode li {
+    color: #ddd;
+}
+
+#theme-toggle {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
