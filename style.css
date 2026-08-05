@@ -109,7 +109,7 @@ nav a:hover {
     color: #555;
     line-height: 1.6;
 }
-.project-btn {
+.btn {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
@@ -122,7 +122,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-.project-btn:hover {
+.btn:hover {
     background: #005fa3;
     transform: scale(1.05);
 }
@@ -137,4 +137,7 @@ footer {
 
 footer p {
     margin: 0;
+}
+.btn{
+    margin:10px;
 }
